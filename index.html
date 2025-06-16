@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -11,89 +12,90 @@
 
     <div>
         <div>
-            <h3>=</h3>
+            <h3 class="currentInput">0</h3>
         </div>
 
         <div>
             <table>
                 <tr>
                 <th>
-                    <button>AC</button>
+                    <button class="clear">C</button>
                 </th>
                 <th>
-                    <button>%</button>
+                    <button class="mod">%</button>
                 </th>
                 <th>
-                    <button>/</button>
+                    <button class="div">/</button>
                 </th>
                 <th>
-                    <button>⌫</button>
+                    <button class="backspace">⌫</button>
                 </th>
                 </tr>
                 
                 <tr>
                 <td>
-                    <button>9</button>
+                    <button class="nine" value="9">9</button>
                 </td>
                 <td>
-                    <button>8</button>
+                    <button class="eight" value="8">8</button>
                 </td>
                 <td>
-                    <button>7</button>
+                    <button class="seven" value="7">7</button>
                 </td>
                 <td>
-                    <button>*</button>
+                    <button class="mul" >*</button>
                 </td>
                 </tr>
 
                 <tr>
                 <td>
-                    <button>6</button>
+                    <button class="six" value="6">6</button>
                 </td>
                 <td>
-                    <button>5</button>
+                    <button class="five" value="5">5</button>
                 </td>
                 <td>
-                    <button>4</button>
+                    <button class="four" value="4">4</button>
                 </td>
                 <td>
-                    <button>-</button>
+                    <button class="sub">-</button>
                 </td>
                 </tr>
 
                 <tr>
                 <td>
-                    <button>3</button>
+                    <button class="three" value="3">3</button>
                 </td>
                 <td>
-                    <button>2</button>
+                    <button class="two" value="2">2</button>
                 </td>
                 <td>
-                    <button>1</button>
+                    <button class="one" value="1">1</button>
                 </td>
                 <td>
-                    <button>+</button>
+                    <button class="add">+</button>
                 </td>
                 </tr>
 
                 <tr>
                     <td>
-                        <button>.</button>
+                        <button class="dot">.</button>
                     </td>
                     <td>
-                        <button>0</button>
+                        <button class="zero" value="0">0</button>
                     </td>
                     <td>
-                        <button>00</button>
+                        <button class="twoZeros" value="00">00</button>
                     </td>
                     <td>
-                        <button>=</button>
+                        <button class="equal">=</button>
                     </td>
                 </tr>
             </table>
         </div>
     </div>
   
+    <script src="script.js"></script>
     
 </body>
 </html>
