@@ -54,7 +54,7 @@ let result
 equal.addEventListener('click',()=>{
     result = eval(value)
     console.log(result)
-    displayAns.innerHTML = result
+    displayAns.innerHTML = `= ${result}`
 })
 
 let clear = document.querySelector('.clear')
