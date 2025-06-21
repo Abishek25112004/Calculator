@@ -53,8 +53,10 @@ let result
 
 equal.addEventListener('click',()=>{
     result = eval(value)
+    
+    let initialZero = (result==undefined)?'0':result;
     console.log(result)
-    displayAns.innerHTML = `= ${result}`
+    displayAns.innerHTML = `= ${initialZero}`
 })
 
 let clear = document.querySelector('.clear')

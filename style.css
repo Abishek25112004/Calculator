@@ -1,5 +1,9 @@
 body{
     background-color: #D8F3DC;
+    background-image: url(e47afbff5330359254d950bb95facce5.webp);
+    opacity: 3px;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
 }
 
 
